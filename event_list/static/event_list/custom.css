@@ -1,0 +1,45 @@
+.navbar, .navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+body {
+    background-color: #000;  /* Set background to black */
+    color: #fff;  /* Set text color to white */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Add padding and margin to make the content look more attractive */
+.container {
+    padding: 20px;
+}
+
+.img-fluid {
+    width: 100%;  /* Adjust image size to fit the layout */
+    height: auto;
+}
+
+/* Ensure buttons and links have hover states that look good on black */
+a.nav-link:hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+#blogtitle {
+    font-size: 6rem;
+}
+
+hr {
+    border-color: white;
+}
+
+@media (min-width: 992px) {
+    #hometext {
+        font-size: 4rem;
+    }
+    #blogdetailtitle {
+        font-size: 5rem;
+    }
+}
